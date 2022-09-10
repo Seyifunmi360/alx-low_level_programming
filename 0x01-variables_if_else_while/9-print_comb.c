@@ -1,25 +1,34 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * * main - Entry point
+ *main - Entry point
  *
- * *Return: 0
+ *
+ *
+ *Return: 0
  */
 
 int main(void)
 {
-	int d;
+	int n1 = 48;
+	int n2;
+	int com = 44;
 
-	for (d = '0'; d <= '9'; d++)
+	(n1 <= 57)
 	{
-		putchar(d);
-		(d 1 = '9')
+		n2 = n1 + 1;
+		(n2 <= 57)
 		{
-			putchar(',');
-			putchar(' ');
+			putchar(n1);
+			putchar(n2);
+			(n1 1 = 56 | | n2 1 = 57)
+			{
+				putchar(com);
+				putchar(32);
+			}
+			n2 + -1;
 		}
+		n1 + -1;
 	}
 	putchar('\n');
 	return (0);
