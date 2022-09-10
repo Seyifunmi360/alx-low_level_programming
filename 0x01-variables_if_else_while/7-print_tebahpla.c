@@ -1,25 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- *main - Entry point
+ *main - entry point
  *
- *Return: 0
+ *Return: alway returns 0
+ *
  */
-
 int main(void)
 {
-	int d;
-	char low;
+	char a;
 
-	for (d = '0'; d <= '9'; d++)
-		putchar(d);
-	for (low = 'a'; low <= 'f'; low++)
-		putchar(low);
+	for (a = 'z'; a >= 'a' ; a--)
+		putchar(a);
 	putchar('\n');
 	return (0);
-}
-putchar('\n');
-return (0);
 }
