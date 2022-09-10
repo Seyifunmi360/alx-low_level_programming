@@ -1,34 +1,24 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
+ *main - entry point
  *
+ *Return: alway returns 0
  *
- *
- *Return: 0
  */
 
 int main(void)
 {
-	int n1 = 48;
-	int n2;
-	int com = 44;
+	int i;
 
-	(n1 <= 57)
+	for (i = 10; i < 20; i++)
 	{
-		n2 = n1 + 1;
-		(n2 <= 57)
+		putchar((i % 10) + '0');
+		if (i != 19)
 		{
-			putchar(n1);
-			putchar(n2);
-			(n1 1 = 56 | | n2 1 = 57)
-			{
-				putchar(com);
-				putchar(32);
-			}
-			n2 + -1;
+			putchar(',');
+			putchar(' ');
 		}
-		n1 + -1;
 	}
 	putchar('\n');
 	return (0);
