@@ -1,4 +1,4 @@
-#include "main.h"
+#ifndef "main.h"
  
 /**
  *main - Print the word "_putchar"
@@ -7,8 +7,9 @@
  */
  
 int main(void)
+
 {
-	        char *sh = "_putchar";
+	        char *sh = "_putchar";
 	 
 		        while (*sh)
 		{
@@ -16,5 +17,6 @@ int main(void)
 			        sh++;
 		}
 	_putchar('\n');
-	return (0);
+
+	return (0);
 }
