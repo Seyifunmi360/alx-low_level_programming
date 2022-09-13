@@ -1,22 +1,22 @@
-#ifndef "main.h"
+#include "main.h"
  
 /**
- *main - Print the word "_putchar"
- *
- *Return: Always 0 (Success)
+ *main - print putchar followed on a new line
+ *Return: always 0
  */
- 
-int main(void)
+
+int main(void)
 
 {
-	        char *sh = "_putchar";
+	        _putchar('_');
+	        _putchar('p');
+	        _putchar('u');
+	        _putchar('t');
+	        _putchar('c');
+	        _putchar('h');
+	        _putchar('a');
+	        _putchar('r');
+	        _putchar('\n');
 	 
-		        while (*sh)
-		{
-			        _putchar(*sh);
-			        sh++;
-		}
-	_putchar('\n');
-
-	return (0);
+		        return (0);
 }
