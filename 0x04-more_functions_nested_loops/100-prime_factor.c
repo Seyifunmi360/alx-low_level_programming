@@ -1,32 +1,23 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * print_triangle - check
- * @size : integer type
- * Retutn: void
+ * main - prints prime numbers
+ * Return: Always 0
  */
-void print_triangle(int size)
+int main(void)
 {
-	int i = 1, ii;
+	long int x = 612852475143;
+	long int py;
 
-	while (i <= size && size > 0)
+	for (py = 2; py < x; py++)
 	{
-		ii = 0;
-		while (ii < size - i)
+		if (x % py == 0)
 		{
-			_putchar(' ');
-			ii++;
+			x = x / py;
 		}
-		ii = 0;
-		while (ii < i)
-		{
-			_putchar('#');
-			ii++;
-		}
-		_putchar('\n');
-		i++;
 	}
-	if (i == 1)
-		_putchar('\n');
+	printf("%ld\n", py);
+
+	return (0);
 }
 
