@@ -1,1 +1,1 @@
-My readme for static libraries task
+My readme for Static libraries
